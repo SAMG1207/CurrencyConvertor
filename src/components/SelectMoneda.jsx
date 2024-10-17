@@ -12,7 +12,7 @@ export const SelectMoneda = ({
       <label>{label}</label>
       <select value={value} onChange={onChange}>
         <option value="" disabled>
-          Seleccione una moneda
+          Select one currency
         </option>
         {currencyNames.map((currency, index) => (
           <option value={currencyCodes[index]} key={index}>
