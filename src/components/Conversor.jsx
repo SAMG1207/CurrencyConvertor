@@ -24,7 +24,7 @@ export const Conversor = () => {
 
   return (
     <>
-      <h1>Currency Convertor</h1>
+      <h1>Currency Converter</h1>
       <div>
         <h3>Choose the currencies you want to compare: </h3>
 
